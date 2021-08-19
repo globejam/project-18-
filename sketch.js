@@ -41,7 +41,7 @@ swordGroup=new Group();
 }
 
 function draw() {
-
+console.log(windowWidth);
   if(gameState===PLAY){
   background(0);
   boy.x = World.mouseX;
